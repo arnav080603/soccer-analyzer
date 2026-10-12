@@ -1,0 +1,9 @@
+# ByteTrack config tuned for this app: longer occlusion memory so players don't
+# get dropped/reassigned a new ID during brief overlaps or missed-detection frames.
+tracker_type: bytetrack
+track_high_thresh: 0.25
+track_low_thresh: 0.1
+new_track_thresh: 0.25
+track_buffer: 90 # frames to keep a lost track alive before giving up (3s at 30fps, vs default 30)
+match_thresh: 0.8
+fuse_score: True

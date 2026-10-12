@@ -1,0 +1,7 @@
+clips/
+processed/
+data/
+venv/
+__pycache__/
+*.pt
+.DS_Store

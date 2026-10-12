@@ -1,0 +1,8 @@
+streamlit
+opencv-python-headless
+ultralytics
+numpy
+imageio
+imageio-ffmpeg
+streamlit-image-coordinates
+lap
